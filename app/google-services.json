@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949034479497",
+    "project_id": "tcc-flash-cards-44e7a",
+    "storage_bucket": "tcc-flash-cards-44e7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949034479497:android:8563eeed9760cf6aeefb58",
+        "android_client_info": {
+          "package_name": "com.example.tccflashcards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949034479497-sj065vuceinq0ammhsaf6cooc1hqq3sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBasvY7lpUyKkw3Gd3mQGQIEWBYjSTIGts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949034479497-sj065vuceinq0ammhsaf6cooc1hqq3sn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
