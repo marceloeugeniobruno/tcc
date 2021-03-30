@@ -25,4 +25,10 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.tccflashcards.activity.LoginActivity"
+        android:label="login"
+        tools:layout="@layout/activity_login"/>
 </navigation>
