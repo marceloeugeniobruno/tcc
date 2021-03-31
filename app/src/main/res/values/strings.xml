@@ -37,6 +37,18 @@
     <string name="perq_seuanimo_Animado">Bem Animado!</string>
     <string name="perq_seuanimo_tranquilo">Tranquilo!</string>
     <string name="perq_seuanimo_desanimado">Aff! mais um dia!</string>
+    <string name="config_nome_Baralho">Nome do Baralho</string>
+    <string name="config_tex_tipo">Tipo do Baralho?</string>
+    <string name="config_tipo_FCcomuns">Flash Cards (FC) comuns</string>
+    <string name="config_tipo_FC_Idiomas">FC para idiamas</string>
+    <string name="config_nome_FC_Idioma_Ingles">FC para o idioma inglês </string>
+    <string name="config_alarme">Alertas</string>
+    <string name="config_alarme_sem">Sem lembretes e alarmes</string>
+    <string name="config_apenas_lembrete">Apenas lembretes</string>
+    <string name="config_alarme_alarme">Alarme</string>
+    <string name="config_aceitar">Criar baralho</string>
+    <string name="config_hora">Hora do lembrete/alamerme Ex: 19:00</string>
+
 
 
 </resources>
