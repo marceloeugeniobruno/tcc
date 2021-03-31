@@ -14,6 +14,10 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+
+        <action
+            android:id="@+id/action_FirstFragment_to_login_activity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -24,17 +28,32 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_PrincipalActivity"
+            app:destination="@id/PrincipalActivity" />
     </fragment>
 
     <activity
         android:id="@+id/loginActivity"
         android:name="com.example.tccflashcards.activity.LoginActivity"
         android:label="login"
-        tools:layout="@layout/activity_login"/>
+        tools:layout="@layout/activity_login">
+
+    </activity>
 
     <fragment
         android:id="@+id/EsqueciSenha"
         android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
         android:label="@string/Esqueci_senha"
-        tools:layout="@layout/fragment_esqueci_senha"/>
+        tools:layout="@layout/fragment_esqueci_senha">
+        <action
+            android:id="@+id/action_EsqueciSenha_to_login_activity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/PrincipalActivity"
+        android:name="com.example.tccflashcards.activity.PincipalActivity"
+        android:label="Principal"
+        tools:layout="@layout/activity_principal"/>
 </navigation>

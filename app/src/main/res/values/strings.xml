@@ -29,6 +29,14 @@
 
     <string name="btn_configurações">Configurações</string>
     <string name="btn_novo_bararalho">Novo Baralho</string>
+    <string name="perq_seutempo">Como está o seu tempo agora para estudar?</string>
+    <string name="perq_seutempo_poucotempo">Com pouco tempo!</string>
+    <string name="perq_seutempo_tenhotempo">Tenho tempo!</string>
+    <string name="perq_seutempo_muitotempo">Estou com muito tempo!</string>
+    <string name="perq_seuanimo">Como está o seu ânimo para estudar?</string>
+    <string name="perq_seuanimo_Animado">Bem Animado!</string>
+    <string name="perq_seuanimo_tranquilo">Tranquilo!</string>
+    <string name="perq_seuanimo_desanimado">Aff! mais um dia!</string>
 
 
 </resources>
