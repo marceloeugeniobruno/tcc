@@ -56,4 +56,52 @@
         android:name="com.example.tccflashcards.activity.PincipalActivity"
         android:label="Principal"
         tools:layout="@layout/activity_principal"/>
+
+    <fragment
+        android:id="@+id/ConfigBaralho"
+        android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
+        android:label="@string/Esqueci_senha"
+        tools:layout="@layout/fragment_configuracoes">
+
+        <action
+            android:id="@+id/action_ConfigBaralho_to_FlashCardsIdiomas"
+            app:destination="@id/FlashCardsIdiomas" />
+        <action
+            android:id="@+id/action_ConfigBaralho_to_PrincipalActivity"
+            app:destination="@id/PrincipalActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/PrimeiraPergunta"
+        android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
+        android:label="@string/Esqueci_senha"
+        tools:layout="@layout/fragment_primeira_pergunta">
+
+        <action
+            android:id="@+id/action_PrimeiraPergunta_to_SegundaPergunta"
+            app:destination="@id/SegundaPergunta" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SegundaPergunta"
+        android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
+        android:label="@string/Esqueci_senha"
+        tools:layout="@layout/fragment_perg_seg">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FlashCardsIdiomas"
+        android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
+        android:label="@string/Esqueci_senha"
+        tools:layout="@layout/fragment_flash_cards_idiomas">
+
+        <action
+            android:id="@+id/action_FlashCardsIdiomas_to_PrimeiraPergunta"
+            app:destination="@id/PrimeiraPergunta" />
+        <action
+            android:id="@+id/action_FlashCardsIdiomas_to_PrincipalActivity"
+            app:destination="@id/PrincipalActivity" />
+    </fragment>
+
 </navigation>

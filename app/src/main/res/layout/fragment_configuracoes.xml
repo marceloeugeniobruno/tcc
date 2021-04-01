@@ -24,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"
+        android:importantForAutofill="no" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -121,7 +122,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/config_hora"
-            android:inputType="datetime|time" />
+            android:inputType="datetime|time"
+            android:importantForAutofill="no" />
     </RadioGroup>
 
     <LinearLayout

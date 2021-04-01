@@ -49,6 +49,18 @@
     <string name="config_aceitar">Criar baralho</string>
     <string name="config_hora">Hora do lembrete/alamerme Ex: 19:00</string>
 
+    <string name="fc_idi_btn_iniciar">Iniciar Estudos</string>
+    <string name="fc_idi_btn_add_carta">ADD Carta</string>
+    <string name="fc_idi_btn_add_grupo">ADD Grupo</string>
+    <string name="fc_idi_btn_conf">Config.</string>
+    <string name="fc_idi_btn_editar">Editar</string>
+
+    <string name="fc_idi_tex_estat">Estatísticas</string>
+    <string name="fc_idi_tex_dias">Dias: 0</string>
+    <string name="fc_idi_tex_textos">Textos: 0</string>
+    <string name="fc_idi_tex_cartas">Cartas: 0</string>
+    <string name="fc_idi_tex_palavrasUnicas">Palavras únicas: 0 (em construção)</string>
+
 
 
 </resources>
