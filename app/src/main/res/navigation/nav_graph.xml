@@ -69,6 +69,9 @@
         <action
             android:id="@+id/action_ConfigBaralho_to_PrincipalActivity"
             app:destination="@id/PrincipalActivity" />
+        <action
+            android:id="@+id/action_ConfigBaralho_to_FlashCards"
+            app:destination="@id/FlashCards" />
     </fragment>
 
     <fragment
@@ -102,6 +105,34 @@
         <action
             android:id="@+id/action_FlashCardsIdiomas_to_PrincipalActivity"
             app:destination="@id/PrincipalActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FlashCards"
+        android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
+        android:label="@string/Esqueci_senha"
+        tools:layout="@layout/fragment_flash_cards">
+
+
+        <action
+            android:id="@+id/action_FlashCards_to_PrincipalActivity"
+            app:destination="@id/PrincipalActivity" />
+        <action
+            android:id="@+id/action_FlashCards_to_PrimeiraPergunta"
+            app:destination="@id/PrimeiraPergunta" />
+        <action
+            android:id="@+id/action_FlashCards_to_editCards"
+            app:destination="@id/editCards" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editCards"
+        android:name="com.example.tccflashcards.activity.EsqueciSenhaFragment"
+        android:label="@string/Esqueci_senha"
+        tools:layout="@layout/fragment_edit_carta_frente">
+        <action
+            android:id="@+id/action_editCards_to_FlashCardsIdiomas"
+            app:destination="@id/FlashCardsIdiomas" />
     </fragment>
 
 </navigation>

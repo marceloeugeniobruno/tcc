@@ -61,5 +61,10 @@
     <string name="fc_idi_tex_cartas">Cartas: 0</string>
     <string name="fc_idi_tex_palavrasUnicas">Palavras únicas: 0 (em construção)</string>
 
+    <string name="fc_edt_negrito">N</string>
+    <string name="fc_edt_italico">I</string>
+    <string name="fc_edt_sublinahdo">S</string>
+
+
 
 </resources>
